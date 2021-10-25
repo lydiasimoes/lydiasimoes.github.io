@@ -1,0 +1,12 @@
+body{
+    font-family : 'Lora', serif ;
+}
+
+.realisation{
+    object-fit: cover;
+}
+
+.shadow-lg{
+    box-shadow: 0.5rem 1rem red
+}
+
