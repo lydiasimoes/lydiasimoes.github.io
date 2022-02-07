@@ -16,48 +16,51 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg sticky-top navbar-light" style="background-color: #C119BB;">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #C119BB;">
             <div class="container-fluid">
-                <a class="navbar-brand text-white text-center" href="#">Lydia Simoes</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <a class="navbar-brand text-white text-center" href="#">Lydia Simoes</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#formations">Formations</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#compétences">Compétences</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#expériences">Experiences</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#réalisations">Réalisations</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
-                        </li>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#formations">Formations</a>
                             </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#compétences">Compétences</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#expériences">Experiences</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#réalisations">Réalisations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#contact">Contact</a>
+                            </li>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>   
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                            </li>
                         </ul>
-                        </li>
-                    </ul>
-                </div>
+                    </div>
+                
             </div>
         </nav>
         <div class="container-fluid">
             <div class="row">
                 <div class="col p-0">
-                    <img class="img-fluid" src="assets/img/bg.jpg" alt="ordinateur sur fond rose">
+                    <img class="img-fluid bgImage" src="assets/img/bg.jpg" alt="ordinateur sur fond rose">
                 </div>
             </div>
         </div>
@@ -69,7 +72,7 @@
 
             <div class="row">
                 <div class="col-12">
-                    <div class="p-3 mb-5 rounded col m-3 rounded border border-dark text-center">
+                    <div class="p-3 mb-5 col m-3 text-center">
                         Bonjour, moi
                         c'est Lydia, j'ai 31 ans et je suis passionnée par le domaine du numérique, curieuse et dynamique,
                         je souhaite progresser dans le développement web afin de performer dans ma reconversion
@@ -87,76 +90,78 @@
         <!-- section formations -->
 
         <section>
-            <div class="row">
-                <h1 id="formations">
-                    <div class="col-12">
-                        <div class="text-center bg-danger text-white">
+            <div class="container-fluid">
+                <div class="row">
+                    <h1 id="formations">
+                        <div class="col-12">
+                            <div class="text-center text-white" style="background-color: #C119BB;">
                             Formations
+                            </div>
+                        </div>
+                    </h1>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="m-3 box-shadow p-2 rounded border border-dark text-center">
+                        2022 : Titre Professionnel (niveau III /bac+2)<br> 
+                        Développeur Web et Web Mobile
                         </div>
                     </div>
-                </h1>
-            </div>
-            <div class="row">
-                <div class="col-sm-8">
-                    <div class="m-3 box-shadow p-2 rounded border border-dark text-center">
-                    2022 : Titre Professionnel (niveau III /bac+2)<br> 
-                    Développeur Web et Web Mobile
+                    <div class="col-sm-4">
+                        <div class="text-center">
+                            <img src="assets/img/lamanu.png" alt="logo de la manu">
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="text-center">
-                        <img src="assets/img/lamanu.png" alt="logo de la manu">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="m-3 box-shadow p-2 rounded border border-dark text-center">
+                        2016 : Baccalauréat Professionnel <br>
+                        Technicien d'Usinage
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="text-center">
+                            <img src="assets/img/prom.jpg" alt="logo de promeo">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-8">
-                    <div class="m-3 box-shadow p-2 rounded border border-dark text-center">
-                    2016 : Baccalauréat Professionnel <br>
-                    Technicien d'Usinage
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="m-3 box-shadow p-2 mb-5 rounded border border-dark text-center">
+                            2013 : BTS Négociation et Relation Client
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="text-center">
+                            <img src="assets/img/interfor.jpg" alt="logo de promeo">
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="text-center">
-                        <img src="assets/img/prom.jpg" alt="logo de promeo">
-                    </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-8">
-                    <div class="m-3 box-shadow p-2 mb-5 rounded border border-dark text-center">
-                        2013 : BTS Négociation et Relation Client
+                <div class="row">
+                    <div class="col-sm-7">
+                        <div class="m-3 box-shadow p-2 mb-5 rounded border border-dark text-center">
+                            2010 :
+                            Baccalauréat Professionnel Vente
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="text-center">
-                        <img src="assets/img/interfor.jpg" alt="logo de promeo">
-                    </div>
-            </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-7">
-                    <div class="m-3 box-shadow p-2 mb-5 rounded border border-dark text-center">
-                    2010 :
-                    Baccalauréat Professionnel Vente
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-7">
-                    <div class="m-3 box-shadow p-2 mb-5 rounded border border-dark text-center">
-                    2009 : 
-                    Baccalauréat Scientifique
+                <div class="row">
+                    <div class="col-sm-7">
+                        <div class="m-3 box-shadow p-2 mb-5 rounded border border-dark text-center">
+                            2009 : 
+                            Baccalauréat Scientifique
+                        </div>
                     </div>
                 </div>
             </div>
-        
         </section>
 
         <!-- section compétences -->
         
         <section>
             <h1 id="compétences">
-                <div class="col-12 text-center bg-danger text-white">Compétences
+                <div class="col-12 text-center text-white" style="background-color: #C119BB;">Compétences
                 </div>
             </h1>
             <div class="row">
@@ -224,33 +229,33 @@
 
         <section>
             <h1 id="expériences">
-                <div class="col-12 text-center bg-danger text-white">Expériences
+                <div class="col-12 text-center text-white" style="background-color: #C119BB;">Expériences
                 </div>
             </h1>
             <div class="row m-3 box-shadow p-2 mb-5 rounded border border-dark text-center">
-                <div class="col-sm-8 col-11">2014/2021 : Somepic Technologie
+                <div class="col-12 fw-bold text-center">2014/2021 : Somepic Technologie
                 </div>
                 <div>Tourneur sur commande Numérique
                 </div>
-                <div>Travailler en équipe et en autonomie / Appliquer avec rigueur des instructions de travailler /
+                <div class="fst-italic">Travailler en équipe et en autonomie / Appliquer avec rigueur des instructions de travailler /
                     Respecter des délais de production.
                 </div>
             </div>
             <div class="row m-3 box-shadow p-2 mb-5 rounded border border-dark text-center">
-                <div class="col-sm-8 col-11">2011/2013 : Médical du Val d'Authie
+                <div class="col-12 fw-bold text-center">2011/2013 : Médical du Val d'Authie
                 </div>
                 <div>Conseillère / Vendeuse en matériel médical :
                 </div>
-                <div>Communiquer et être à l'écoute / Administratif (facturation, devis, commandes,...) / Recherche des
+                <div class="fst-italic">Communiquer et être à l'écoute / Administratif (facturation, devis, commandes,...) / Recherche des
                     besoins clients (professionnel et particulier) / Accueil clientèle.
                 </div>
             </div>
-            <div class="row m-3 box-shadow p-2 mb-5 rounded border border-dark text-center">
-                <div class="col-sm-8 col-11"> 2010/2012 : Tupperware
+            <div class="row m-2 box-shadow p-2 mb-5 rounded border border-dark text-center">
+                <div class="col-s12 fw-bold text-center"> 2010/2012 : Tupperware
                 </div>
                 <div>Conseillère à domicile en atelier culinaire :
                 </div>
-                <div>Préparation des ateliers / Prospection / prise de rendez-vous / Préparation et livraison des
+                <div  class="fst-italic">Préparation des ateliers / Prospection / prise de rendez-vous / Préparation et livraison des
                     commandes / Réception et dépôt des règlements.
                 </div>
             </div>
@@ -260,7 +265,7 @@
 
         <section>
             <h1 id=réalisations>
-                <div class="col-12 text-center bg-danger text-white">
+                <div class="col-12 text-center text-white" style="background-color: #C119BB;">
                     Réalisations
 
                 </div>
@@ -286,7 +291,7 @@
         <section>
             <h1 id=contact>
                 <div class="col-12">
-                    <div class="text-center bg-danger text-white">
+                    <div class="text-center text-white" style="background-color: #C119BB;">
                         Contact
                     </div>
                 </div>
@@ -338,7 +343,7 @@
                                     </div>
                                     <div class="col-md-8">
                                         <div class="invalid-feedback">
-                                            Objet :
+                                            Objet de votre message:
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -349,7 +354,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating name m-3">
-                                        <button class="btn btn-danger mt-2 me-md-2" type="button">Envoyer</button>
+                                        <button class="btn mt-2 me-md-2" style="background-color: #C119BB;" type="button">Envoyer</button>
                                     </div>
                                 </div>
                             </div>
