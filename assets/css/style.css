@@ -1,0 +1,19 @@
+body{
+    font-family : 'Lora', serif ;
+}
+
+.realisation{
+    object-fit: cover;
+}
+
+.backGround{
+    
+    height: 100vh;
+	background-image: url("/assets/img/bg.jpg");
+	background-size: cover;
+    display: flex;
+
+}
+.size{
+    height: 300px;
+}
