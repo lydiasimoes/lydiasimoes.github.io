@@ -5,3 +5,25 @@ body{
 .realisation{
     object-fit: cover;
 }
+
+.backGround{
+	background-image: url("/assets/img/bg.jpg");
+	background-size: cover;
+	height: 24vh;
+	display: flex;
+}
+@media screen and (max-width : 992px) {
+	.backGround{
+		height: 20vh;
+	}
+}
+@media screen and (max-width : 768px) {
+	.backGround{
+		height: 15vh;
+	}
+}
+@media screen and (max-width : 576px) {
+	.backGround{
+		height: 10vh;
+	}
+}
